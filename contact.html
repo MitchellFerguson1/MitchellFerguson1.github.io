@@ -12,10 +12,23 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-sm bg-light">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <ul class="navbar-nav">
       <li class="navbar-item">
-        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="">Home
+           <span class="sr-only">(currnet)</span>
+         </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">aMAZEing</a>
+          <a class="dropdown-item" href="#">DCP Bucket List</a>
+          <a class="dropdown-item" href="#">Car Care</a>
+          <a class="dropdown-item" href="#">This website</a>
+        </div>
       </li>
       <li class="navbar-item">
         <a class="nav-link" href="contact">Contact</a>
