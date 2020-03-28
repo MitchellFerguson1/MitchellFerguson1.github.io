@@ -29,7 +29,7 @@
       <p class="text-center">Feel free to contact me using the form below</p>
       <div class="row">
         <div class="col-md mb-md-0 mb-5">
-          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+          <form id="contact-form" name="contact-form" action="https://formspree.io/mlelkznj" method="POST">
             <div class="row">
               <div class="col-md-6">
                 <div class="md-form mb-2">
@@ -38,14 +38,7 @@
               </div>
               <div class="col-md-6">
                 <div class="md-form mb-2">
-                  <input type="text" id="email" name="email" class="form-control" placeholder="Your email">
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="md-form mb-2">
-                  <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                  <input type="text" id="email" name="_replyto" class="form-control" placeholder="Your email">
                 </div>
               </div>
             </div>
@@ -58,7 +51,7 @@
             </div>
           </form>
           <div class="text-center">
-            <button type="submit" class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </div>
           <div class="status"></div>
         </div>
