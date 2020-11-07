@@ -9,10 +9,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="layout.css">
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Mitchell Ferguson</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainBar">
@@ -57,12 +57,16 @@
   </nav>
 
   <div class="row d-flex justify-content-center" style="margin: 10px">
-      <h1>Hello!</h1>
+    <h1>Hello!</h1>
+  </div>
+  <div class="row d-flex justify-content-center">
+    <div class="col-10">
       <p>My name is Mitchell Ferguson, I am a current Third Year student at Miami University
         majoring in Computer Science and Computer Technology. Below you'll see some of the courses
         I have taken and the work involved in the courses, and below that you'll see all the
         languages I'm familiar with. Up above you'll find a contact page and a list of my
         personal projects!</p>
+    </div>
   </div>
 
   <div class="row justify-content-center">
@@ -74,23 +78,26 @@
 
   <div class="row d-flex justify-content-center">
     <div class="col-3" style="margin: 10px">
+      <h6 style="text-align:center">Class Title</h6>
+    </div>
+    <div class="col-7" style="margin-top: 10px">
+      <div class="row">
+        <h6>Course description</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-3" style="margin: 10px">
       <h2 style="text-align: center">CSE 381</h2>
       <p style="text-align: center">Systems 2</p>
     </div>
-    <div class="col-8">
+    <div class="col-7">
       <div class="row">
         <p>This course taught me how to create a web server that allows for a user to execute
           bash commands on the given Linux server using HTTP headers. This class also
           helped teach same basics in multi-threading along with Virtual Machines
           on Linux servers.</p>
-      </div>
-      <div class="row">
-        <div class="col-auto">
-          <h6>Languages used:</h6>
-        </div>
-        <div class="col-auto">
-          <p>C++</p>
-        </div>
       </div>
     </div>
   </div>
@@ -100,20 +107,12 @@
       <h2 style="text-align: center">CSE 383</h2>
       <p style="text-align: center">Web Application Programming</p>
     </div>
-    <div class="col-8">
+    <div class="col-7">
       <div class="row">
         <p>This course focused on creating web application programs and taught
           a little bit of everything in regards to creating a website. The final
           project revolved around using given APIs and PHP scripts to add data
           to an AWS server.</p>
-      </div>
-      <div class="row">
-        <div class="col-auto">
-          <h6>Languages and services used:</h6>
-        </div>
-        <div class="col-auto">
-          <p>HTML, CSS, Bootstrap, AJAX, Jquery, PHP, AWS</p>
-        </div>
       </div>
     </div>
   </div>
@@ -123,20 +122,12 @@
       <h2 style="text-align: center">CSE 201</h2>
       <p style="text-align: center">Intro. to Software Engineering</P>
     </div>
-    <div class="col-8">
+    <div class="col-7">
       <div class="row">
         <p>This class taught the fundamentals of the Software Engineering cycle,
           with a primary focus on learning the basics of AGILE development. the
           course was centered around a project with weekly meetings to mock the
           Agile development cycle.</p>
-      </div>
-      <div class="row">
-        <div class="col-auto">
-          <h6>Processes learned and Languages used:</h6>
-        </div>
-        <div class="col-auto">
-          <p>AGILE, C#, SQL</p>
-        </div>
       </div>
     </div>
   </div>
@@ -150,20 +141,12 @@
       <h2 style="text-align: center">CSE 385</h2>
       <p style="text-align: center">Database Systems</p>
     </div>
-    <div class="col-8">
+    <div class="col-7">
       <div class="row">
         <p>This class taught the fundamentals of a SQL server. The final project
           can be found above in the projects tab under Car Care. Made sure that
           all students understood how to operate a SQL server and create stored
           procedures for said servers.</p>
-      </div>
-      <div class="row">
-        <div class="col-auto">
-          <h6>Languages learned and used:</h6>
-        </div>
-        <div class="col-auto">
-          <p>SQL, C#</p>
-        </div>
       </div>
     </div>
   </div>
@@ -173,7 +156,7 @@
       <h2 style="text-align: center">CSE 486</h2>
       <p style="text-align: center">Intro. to Artificial Intelligence and Machine Learning</p>
     </div>
-    <div class="col-8">
+    <div class="col-7">
       <div class="row">
         <p>This course helped teach the basics of Artificial Intelligence along with
           an introduction to some basic Machine Learning fundamentals. This course
