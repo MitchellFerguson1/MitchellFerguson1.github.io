@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Mitchell Ferguson</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainBar">
@@ -22,7 +21,7 @@
     <div id="mainBar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav" id="navItems">
         <li class="navbar-item">
-          <a class="nav-link" href="index">Home
+          <a class="nav-link" href="index.html">Home
           </a>
         </li>
         <li class="nav-item dropdown active">
@@ -30,7 +29,7 @@
             Projects
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="DCP_Bucket_List">DCP Bucket List</a>
+            <a class="dropdown-item" href="aMAZEing">aMAZEing</a>
             <a class="dropdown-item" href="#">Car Care</a>
             <a class="dropdown-item" href="#">This website</a>
           </div>
@@ -55,36 +54,4 @@
       </ul>
     </div>
   </nav>
-
-  <div class="row justify-content-center" style="padding-top: 5%;">
-    <h1>aMAZEing</h1>
-  </div>
-
-  <div class="row justify-content-around" style="padding-top: 5%; padding-left: 5%;">
-    <div class="col-5">
-      <div class="row">
-        <p>aMAZEing is my latest semi-complete personal project. It focuses on creating a maze randomly using recursive backtracking. The end goal with this project is to create an AI that can solve the
-          maze. Currently the user is able to set the start and end point of the maze. I plan on possibly coming back and implement heuristic pathfinding.</p>
-      </div>
-      <div class="row justify-content-center" style="padding-top: 20%;">
-        <button class="btn btn-primary" href="https://github.com/MitchellFerguson1/aMAZEing">Get the source code here</button>
-      </div>
-    </div>
-    <div class="col-6">
-      <div id="carousel" class="carousel slide" data-ride="carousel" style="background-color: lightgray;">
-        <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100 maze" src="Images/generation.PNG" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 maze" src="Images/finished.PNG" alt="Second slide">
-          </div>
-        </div>
-      </div>
-    </div>
-
 </body>
