@@ -10,5 +10,5 @@ img.maze {
   float: left;
   width: 500px;
   height: 300px;
-  object-fit: fit;
+  object-fit: scale-down;
 }
