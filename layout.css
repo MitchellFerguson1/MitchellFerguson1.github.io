@@ -12,3 +12,11 @@ img.maze {
   height: 300px;
   object-fit: scale-down;
 }
+
+img.dcp {
+  float: left;
+  width: 100px;
+  height: 300px;
+  object-fit: scale-down;
+  overflow:auto;
+}
